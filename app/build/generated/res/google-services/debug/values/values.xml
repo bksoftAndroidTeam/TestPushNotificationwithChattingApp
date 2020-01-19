@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">790839910898-sivntf9n5g2qigccnh86im9242divba1.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://alamin-70137.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">790839910898</string>
+    <string name="google_api_key" translatable="false">AIzaSyCSNBnfssR9rvt6k7sANBR9uxYB_VRl-ZU</string>
+    <string name="google_app_id" translatable="false">1:790839910898:android:6143ec92a705d76cc38b6b</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCSNBnfssR9rvt6k7sANBR9uxYB_VRl-ZU</string>
+    <string name="google_storage_bucket" translatable="false">alamin-70137.appspot.com</string>
+    <string name="project_id" translatable="false">alamin-70137</string>
+</resources>
