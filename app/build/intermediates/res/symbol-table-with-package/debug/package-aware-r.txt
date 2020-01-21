@@ -1229,6 +1229,7 @@ id barrier
 id beginning
 id blocking
 id bottom
+id btn_goto_kotlin
 id button3
 id buttonChangeImage
 id buttonChangeStatus
@@ -1539,6 +1540,7 @@ layout activity_profile
 layout activity_register
 layout activity_setting
 layout activity_status
+layout activity_test_wtih_kotline
 layout activity_user
 layout app_bar_layout
 layout crop_image_activity

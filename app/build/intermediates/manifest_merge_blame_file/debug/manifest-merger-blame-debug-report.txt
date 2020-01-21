@@ -23,23 +23,23 @@
 15    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
 16    <!-- <uses-sdk android:minSdkVersion="14"/> -->
 17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-17-->[com.google.firebase:firebase-database:19.2.0] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\1b13ddd0979a31d5382231a327fe44a7\firebase-database-19.2.0\AndroidManifest.xml:25:5-79
-17-->[com.google.firebase:firebase-database:19.2.0] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\1b13ddd0979a31d5382231a327fe44a7\firebase-database-19.2.0\AndroidManifest.xml:25:22-76
+17-->[com.google.firebase:firebase-database:19.2.0] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\1c1e7bb518f8042f6abc0abe70ecf6f5\firebase-database-19.2.0\AndroidManifest.xml:25:5-79
+17-->[com.google.firebase:firebase-database:19.2.0] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\1c1e7bb518f8042f6abc0abe70ecf6f5\firebase-database-19.2.0\AndroidManifest.xml:25:22-76
 18    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
-18-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\946a39d7756c6b05aa38a853bdffc128\firebase-iid-20.0.2\AndroidManifest.xml:24:5-68
-18-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\946a39d7756c6b05aa38a853bdffc128\firebase-iid-20.0.2\AndroidManifest.xml:24:22-65
+18-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\1ccbe7db028a7e8146bdd5933e9f9f42\firebase-iid-20.0.2\AndroidManifest.xml:24:5-68
+18-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\1ccbe7db028a7e8146bdd5933e9f9f42\firebase-iid-20.0.2\AndroidManifest.xml:24:22-65
 19    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
-19-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\946a39d7756c6b05aa38a853bdffc128\firebase-iid-20.0.2\AndroidManifest.xml:26:5-82
-19-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\946a39d7756c6b05aa38a853bdffc128\firebase-iid-20.0.2\AndroidManifest.xml:26:22-79
+19-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\1ccbe7db028a7e8146bdd5933e9f9f42\firebase-iid-20.0.2\AndroidManifest.xml:26:5-82
+19-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\1ccbe7db028a7e8146bdd5933e9f9f42\firebase-iid-20.0.2\AndroidManifest.xml:26:22-79
 20
 21    <application
-21-->C:\Users\bk soft - android\AndroidStudioProjects\alamin\socialMediaNotificationTest\Lets-Chat\LetsChat\app\src\main\AndroidManifest.xml:9:5-54:19
+21-->C:\Users\bk soft - android\AndroidStudioProjects\alamin\socialMediaNotificationTest\Lets-Chat\LetsChat\app\src\main\AndroidManifest.xml:9:5-63:19
 22        android:name="com.example.singhkshitiz.letschat.LetsChat"
 22-->C:\Users\bk soft - android\AndroidStudioProjects\alamin\socialMediaNotificationTest\Lets-Chat\LetsChat\app\src\main\AndroidManifest.xml:10:9-33
 23        android:allowBackup="true"
 23-->C:\Users\bk soft - android\AndroidStudioProjects\alamin\socialMediaNotificationTest\Lets-Chat\LetsChat\app\src\main\AndroidManifest.xml:11:9-35
 24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-24-->[androidx.core:core:1.1.0] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\331630a23dfa1f0594bcf54d5352aa36\core-1.1.0\AndroidManifest.xml:24:18-86
+24-->[androidx.core:core:1.1.0] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\0e5ff245b207ca78fb7ae51d35a9f963\core-1.1.0\AndroidManifest.xml:24:18-86
 25        android:debuggable="true"
 26        android:icon="@mipmap/ic_launcher"
 26-->C:\Users\bk soft - android\AndroidStudioProjects\alamin\socialMediaNotificationTest\Lets-Chat\LetsChat\app\src\main\AndroidManifest.xml:12:9-43
@@ -52,237 +52,249 @@
 30        android:testOnly="true"
 31        android:theme="@style/AppTheme" >
 31-->C:\Users\bk soft - android\AndroidStudioProjects\alamin\socialMediaNotificationTest\Lets-Chat\LetsChat\app\src\main\AndroidManifest.xml:16:9-40
-32        <service android:name="com.example.singhkshitiz.letschat.FirebaseMessagingService" >
-32-->C:\Users\bk soft - android\AndroidStudioProjects\alamin\socialMediaNotificationTest\Lets-Chat\LetsChat\app\src\main\AndroidManifest.xml:17:9-21:19
-32-->C:\Users\bk soft - android\AndroidStudioProjects\alamin\socialMediaNotificationTest\Lets-Chat\LetsChat\app\src\main\AndroidManifest.xml:17:18-58
-33            <intent-filter>
-33-->C:\Users\bk soft - android\AndroidStudioProjects\alamin\socialMediaNotificationTest\Lets-Chat\LetsChat\app\src\main\AndroidManifest.xml:18:13-20:29
-34                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-34-->C:\Users\bk soft - android\AndroidStudioProjects\alamin\socialMediaNotificationTest\Lets-Chat\LetsChat\app\src\main\AndroidManifest.xml:19:17-78
-34-->C:\Users\bk soft - android\AndroidStudioProjects\alamin\socialMediaNotificationTest\Lets-Chat\LetsChat\app\src\main\AndroidManifest.xml:19:25-75
-35            </intent-filter>
-36        </service>
-37
-38        <activity
-38-->C:\Users\bk soft - android\AndroidStudioProjects\alamin\socialMediaNotificationTest\Lets-Chat\LetsChat\app\src\main\AndroidManifest.xml:23:9-30:20
-39            android:name="com.example.singhkshitiz.letschat.MainActivity"
-39-->C:\Users\bk soft - android\AndroidStudioProjects\alamin\socialMediaNotificationTest\Lets-Chat\LetsChat\app\src\main\AndroidManifest.xml:23:19-47
-40            android:screenOrientation="portrait" >
-40-->C:\Users\bk soft - android\AndroidStudioProjects\alamin\socialMediaNotificationTest\Lets-Chat\LetsChat\app\src\main\AndroidManifest.xml:24:13-49
-41            <intent-filter>
-41-->C:\Users\bk soft - android\AndroidStudioProjects\alamin\socialMediaNotificationTest\Lets-Chat\LetsChat\app\src\main\AndroidManifest.xml:25:13-29:29
-42                <action android:name="android.intent.action.MAIN" />
-42-->C:\Users\bk soft - android\AndroidStudioProjects\alamin\socialMediaNotificationTest\Lets-Chat\LetsChat\app\src\main\AndroidManifest.xml:26:17-69
-42-->C:\Users\bk soft - android\AndroidStudioProjects\alamin\socialMediaNotificationTest\Lets-Chat\LetsChat\app\src\main\AndroidManifest.xml:26:25-66
+32        <activity android:name="com.example.singhkshitiz.letschat.TestWtihKotlineActivity" />
+32-->C:\Users\bk soft - android\AndroidStudioProjects\alamin\socialMediaNotificationTest\Lets-Chat\LetsChat\app\src\main\AndroidManifest.xml:17:9-70
+32-->C:\Users\bk soft - android\AndroidStudioProjects\alamin\socialMediaNotificationTest\Lets-Chat\LetsChat\app\src\main\AndroidManifest.xml:17:19-58
+33
+34        <service
+34-->C:\Users\bk soft - android\AndroidStudioProjects\alamin\socialMediaNotificationTest\Lets-Chat\LetsChat\app\src\main\AndroidManifest.xml:19:9-22:40
+35            android:name="com.example.singhkshitiz.letschat.Notification.FcmListenerService"
+35-->C:\Users\bk soft - android\AndroidStudioProjects\alamin\socialMediaNotificationTest\Lets-Chat\LetsChat\app\src\main\AndroidManifest.xml:20:13-60
+36            android:enabled="false"
+36-->C:\Users\bk soft - android\AndroidStudioProjects\alamin\socialMediaNotificationTest\Lets-Chat\LetsChat\app\src\main\AndroidManifest.xml:21:13-36
+37            android:exported="false" />
+37-->C:\Users\bk soft - android\AndroidStudioProjects\alamin\socialMediaNotificationTest\Lets-Chat\LetsChat\app\src\main\AndroidManifest.xml:22:13-37
+38        <service android:name="com.example.singhkshitiz.letschat.FirebaseMessagingService" >
+38-->C:\Users\bk soft - android\AndroidStudioProjects\alamin\socialMediaNotificationTest\Lets-Chat\LetsChat\app\src\main\AndroidManifest.xml:23:9-27:19
+38-->C:\Users\bk soft - android\AndroidStudioProjects\alamin\socialMediaNotificationTest\Lets-Chat\LetsChat\app\src\main\AndroidManifest.xml:23:18-58
+39            <intent-filter>
+39-->C:\Users\bk soft - android\AndroidStudioProjects\alamin\socialMediaNotificationTest\Lets-Chat\LetsChat\app\src\main\AndroidManifest.xml:24:13-26:29
+40                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+40-->C:\Users\bk soft - android\AndroidStudioProjects\alamin\socialMediaNotificationTest\Lets-Chat\LetsChat\app\src\main\AndroidManifest.xml:25:17-78
+40-->C:\Users\bk soft - android\AndroidStudioProjects\alamin\socialMediaNotificationTest\Lets-Chat\LetsChat\app\src\main\AndroidManifest.xml:25:25-75
+41            </intent-filter>
+42        </service>
 43
-44                <category android:name="android.intent.category.LAUNCHER" />
-44-->C:\Users\bk soft - android\AndroidStudioProjects\alamin\socialMediaNotificationTest\Lets-Chat\LetsChat\app\src\main\AndroidManifest.xml:28:17-77
-44-->C:\Users\bk soft - android\AndroidStudioProjects\alamin\socialMediaNotificationTest\Lets-Chat\LetsChat\app\src\main\AndroidManifest.xml:28:27-74
-45            </intent-filter>
-46        </activity>
-47        <activity
-47-->C:\Users\bk soft - android\AndroidStudioProjects\alamin\socialMediaNotificationTest\Lets-Chat\LetsChat\app\src\main\AndroidManifest.xml:31:9-33:15
-48            android:name="com.example.singhkshitiz.letschat.LoginActivity"
-48-->C:\Users\bk soft - android\AndroidStudioProjects\alamin\socialMediaNotificationTest\Lets-Chat\LetsChat\app\src\main\AndroidManifest.xml:31:19-48
-49            android:theme="@style/AppTheme2" />
-49-->C:\Users\bk soft - android\AndroidStudioProjects\alamin\socialMediaNotificationTest\Lets-Chat\LetsChat\app\src\main\AndroidManifest.xml:32:13-45
-50        <activity
-50-->C:\Users\bk soft - android\AndroidStudioProjects\alamin\socialMediaNotificationTest\Lets-Chat\LetsChat\app\src\main\AndroidManifest.xml:34:9-35:47
-51            android:name="com.example.singhkshitiz.letschat.RegisterActivity"
-51-->C:\Users\bk soft - android\AndroidStudioProjects\alamin\socialMediaNotificationTest\Lets-Chat\LetsChat\app\src\main\AndroidManifest.xml:34:19-51
-52            android:theme="@style/AppTheme2" />
-52-->C:\Users\bk soft - android\AndroidStudioProjects\alamin\socialMediaNotificationTest\Lets-Chat\LetsChat\app\src\main\AndroidManifest.xml:35:13-45
+44        <activity
+44-->C:\Users\bk soft - android\AndroidStudioProjects\alamin\socialMediaNotificationTest\Lets-Chat\LetsChat\app\src\main\AndroidManifest.xml:29:9-37:20
+45            android:name="com.example.singhkshitiz.letschat.MainActivity"
+45-->C:\Users\bk soft - android\AndroidStudioProjects\alamin\socialMediaNotificationTest\Lets-Chat\LetsChat\app\src\main\AndroidManifest.xml:30:13-41
+46            android:screenOrientation="portrait" >
+46-->C:\Users\bk soft - android\AndroidStudioProjects\alamin\socialMediaNotificationTest\Lets-Chat\LetsChat\app\src\main\AndroidManifest.xml:31:13-49
+47            <intent-filter>
+47-->C:\Users\bk soft - android\AndroidStudioProjects\alamin\socialMediaNotificationTest\Lets-Chat\LetsChat\app\src\main\AndroidManifest.xml:32:13-36:29
+48                <action android:name="android.intent.action.MAIN" />
+48-->C:\Users\bk soft - android\AndroidStudioProjects\alamin\socialMediaNotificationTest\Lets-Chat\LetsChat\app\src\main\AndroidManifest.xml:33:17-69
+48-->C:\Users\bk soft - android\AndroidStudioProjects\alamin\socialMediaNotificationTest\Lets-Chat\LetsChat\app\src\main\AndroidManifest.xml:33:25-66
+49
+50                <category android:name="android.intent.category.LAUNCHER" />
+50-->C:\Users\bk soft - android\AndroidStudioProjects\alamin\socialMediaNotificationTest\Lets-Chat\LetsChat\app\src\main\AndroidManifest.xml:35:17-77
+50-->C:\Users\bk soft - android\AndroidStudioProjects\alamin\socialMediaNotificationTest\Lets-Chat\LetsChat\app\src\main\AndroidManifest.xml:35:27-74
+51            </intent-filter>
+52        </activity>
 53        <activity
-53-->C:\Users\bk soft - android\AndroidStudioProjects\alamin\socialMediaNotificationTest\Lets-Chat\LetsChat\app\src\main\AndroidManifest.xml:36:9-38:48
-54            android:name="com.example.singhkshitiz.letschat.SettingActivity"
-54-->C:\Users\bk soft - android\AndroidStudioProjects\alamin\socialMediaNotificationTest\Lets-Chat\LetsChat\app\src\main\AndroidManifest.xml:37:13-44
+53-->C:\Users\bk soft - android\AndroidStudioProjects\alamin\socialMediaNotificationTest\Lets-Chat\LetsChat\app\src\main\AndroidManifest.xml:38:9-40:48
+54            android:name="com.example.singhkshitiz.letschat.LoginActivity"
+54-->C:\Users\bk soft - android\AndroidStudioProjects\alamin\socialMediaNotificationTest\Lets-Chat\LetsChat\app\src\main\AndroidManifest.xml:39:13-42
 55            android:theme="@style/AppTheme2" />
-55-->C:\Users\bk soft - android\AndroidStudioProjects\alamin\socialMediaNotificationTest\Lets-Chat\LetsChat\app\src\main\AndroidManifest.xml:38:13-45
-56        <activity android:name="com.example.singhkshitiz.letschat.StatusActivity" />
-56-->C:\Users\bk soft - android\AndroidStudioProjects\alamin\socialMediaNotificationTest\Lets-Chat\LetsChat\app\src\main\AndroidManifest.xml:39:9-52
-56-->C:\Users\bk soft - android\AndroidStudioProjects\alamin\socialMediaNotificationTest\Lets-Chat\LetsChat\app\src\main\AndroidManifest.xml:39:19-49
-57        <activity android:name="com.theartofdev.edmodo.cropper.CropImageActivity" />
-57-->C:\Users\bk soft - android\AndroidStudioProjects\alamin\socialMediaNotificationTest\Lets-Chat\LetsChat\app\src\main\AndroidManifest.xml:40:9-85
-57-->C:\Users\bk soft - android\AndroidStudioProjects\alamin\socialMediaNotificationTest\Lets-Chat\LetsChat\app\src\main\AndroidManifest.xml:40:19-82
-58        <activity android:name="com.example.singhkshitiz.letschat.UserActivity" />
-58-->C:\Users\bk soft - android\AndroidStudioProjects\alamin\socialMediaNotificationTest\Lets-Chat\LetsChat\app\src\main\AndroidManifest.xml:41:9-50
-58-->C:\Users\bk soft - android\AndroidStudioProjects\alamin\socialMediaNotificationTest\Lets-Chat\LetsChat\app\src\main\AndroidManifest.xml:41:19-47
+55-->C:\Users\bk soft - android\AndroidStudioProjects\alamin\socialMediaNotificationTest\Lets-Chat\LetsChat\app\src\main\AndroidManifest.xml:40:13-45
+56        <activity
+56-->C:\Users\bk soft - android\AndroidStudioProjects\alamin\socialMediaNotificationTest\Lets-Chat\LetsChat\app\src\main\AndroidManifest.xml:41:9-43:48
+57            android:name="com.example.singhkshitiz.letschat.RegisterActivity"
+57-->C:\Users\bk soft - android\AndroidStudioProjects\alamin\socialMediaNotificationTest\Lets-Chat\LetsChat\app\src\main\AndroidManifest.xml:42:13-45
+58            android:theme="@style/AppTheme2" />
+58-->C:\Users\bk soft - android\AndroidStudioProjects\alamin\socialMediaNotificationTest\Lets-Chat\LetsChat\app\src\main\AndroidManifest.xml:43:13-45
 59        <activity
-59-->C:\Users\bk soft - android\AndroidStudioProjects\alamin\socialMediaNotificationTest\Lets-Chat\LetsChat\app\src\main\AndroidManifest.xml:42:9-50:20
-60            android:name="com.example.singhkshitiz.letschat.ProfileActivity"
-60-->C:\Users\bk soft - android\AndroidStudioProjects\alamin\socialMediaNotificationTest\Lets-Chat\LetsChat\app\src\main\AndroidManifest.xml:43:13-44
-61            android:theme="@style/AppTheme2" >
-61-->C:\Users\bk soft - android\AndroidStudioProjects\alamin\socialMediaNotificationTest\Lets-Chat\LetsChat\app\src\main\AndroidManifest.xml:44:13-45
-62            <intent-filter>
-62-->C:\Users\bk soft - android\AndroidStudioProjects\alamin\socialMediaNotificationTest\Lets-Chat\LetsChat\app\src\main\AndroidManifest.xml:45:13-49:29
-63                <action android:name="com.example.singhkshitiz.letschat_TARGET_NOTIFICATION" />
-63-->C:\Users\bk soft - android\AndroidStudioProjects\alamin\socialMediaNotificationTest\Lets-Chat\LetsChat\app\src\main\AndroidManifest.xml:46:17-96
-63-->C:\Users\bk soft - android\AndroidStudioProjects\alamin\socialMediaNotificationTest\Lets-Chat\LetsChat\app\src\main\AndroidManifest.xml:46:25-93
-64
-65                <category android:name="android.intent.category.DEFAULT" />
-65-->C:\Users\bk soft - android\AndroidStudioProjects\alamin\socialMediaNotificationTest\Lets-Chat\LetsChat\app\src\main\AndroidManifest.xml:48:17-76
-65-->C:\Users\bk soft - android\AndroidStudioProjects\alamin\socialMediaNotificationTest\Lets-Chat\LetsChat\app\src\main\AndroidManifest.xml:48:27-73
-66            </intent-filter>
-67        </activity>
-68        <activity
-68-->C:\Users\bk soft - android\AndroidStudioProjects\alamin\socialMediaNotificationTest\Lets-Chat\LetsChat\app\src\main\AndroidManifest.xml:51:9-53:61
-69            android:name="com.example.singhkshitiz.letschat.ChatActivity"
-69-->C:\Users\bk soft - android\AndroidStudioProjects\alamin\socialMediaNotificationTest\Lets-Chat\LetsChat\app\src\main\AndroidManifest.xml:51:19-47
-70            android:parentActivityName="com.example.singhkshitiz.letschat.MainActivity"
-70-->C:\Users\bk soft - android\AndroidStudioProjects\alamin\socialMediaNotificationTest\Lets-Chat\LetsChat\app\src\main\AndroidManifest.xml:52:13-55
-71            android:screenOrientation="portrait" />
-71-->C:\Users\bk soft - android\AndroidStudioProjects\alamin\socialMediaNotificationTest\Lets-Chat\LetsChat\app\src\main\AndroidManifest.xml:53:13-49
-72
-73        <meta-data
-73-->[com.firebaseui:firebase-ui-database:1.0.1] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\7ce719c01e8fe40ccc46084f48f27226\jetified-firebase-ui-database-1.0.1\AndroidManifest.xml:14:9-16:69
-74            android:name="com.google.android.gms.version"
-74-->[com.firebaseui:firebase-ui-database:1.0.1] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\7ce719c01e8fe40ccc46084f48f27226\jetified-firebase-ui-database-1.0.1\AndroidManifest.xml:15:13-58
-75            android:value="@integer/google_play_services_version" />
-75-->[com.firebaseui:firebase-ui-database:1.0.1] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\7ce719c01e8fe40ccc46084f48f27226\jetified-firebase-ui-database-1.0.1\AndroidManifest.xml:16:13-66
-76
-77        <activity
-77-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\1569b356ae21c59997606b87853bf436\firebase-auth-19.2.0\AndroidManifest.xml:24:9-31:50
-78            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
-78-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\1569b356ae21c59997606b87853bf436\firebase-auth-19.2.0\AndroidManifest.xml:25:13-85
-79            android:excludeFromRecents="true"
-79-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\1569b356ae21c59997606b87853bf436\firebase-auth-19.2.0\AndroidManifest.xml:26:13-46
-80            android:exported="true"
-80-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\1569b356ae21c59997606b87853bf436\firebase-auth-19.2.0\AndroidManifest.xml:27:13-36
-81            android:launchMode="singleTask"
-81-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\1569b356ae21c59997606b87853bf436\firebase-auth-19.2.0\AndroidManifest.xml:28:13-44
-82            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
-82-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\1569b356ae21c59997606b87853bf436\firebase-auth-19.2.0\AndroidManifest.xml:29:13-102
-83            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-83-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\1569b356ae21c59997606b87853bf436\firebase-auth-19.2.0\AndroidManifest.xml:30:13-72
-84
-85        <service
-85-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\1569b356ae21c59997606b87853bf436\firebase-auth-19.2.0\AndroidManifest.xml:33:9-39:19
-86            android:name="com.google.firebase.components.ComponentDiscoveryService"
-86-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\1569b356ae21c59997606b87853bf436\firebase-auth-19.2.0\AndroidManifest.xml:34:13-84
-87            android:directBootAware="true"
-87-->[com.google.firebase:firebase-common:19.3.0] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\6c412de5bdf0226a70888865ea0eaa04\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
-88            android:exported="false" >
-88-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\1569b356ae21c59997606b87853bf436\firebase-auth-19.2.0\AndroidManifest.xml:35:13-37
-89            <meta-data
-89-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\1569b356ae21c59997606b87853bf436\firebase-auth-19.2.0\AndroidManifest.xml:36:13-38:85
-90                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
-90-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\1569b356ae21c59997606b87853bf436\firebase-auth-19.2.0\AndroidManifest.xml:37:17-109
-91                android:value="com.google.firebase.components.ComponentRegistrar" />
-91-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\1569b356ae21c59997606b87853bf436\firebase-auth-19.2.0\AndroidManifest.xml:38:17-82
-92            <meta-data
-92-->[com.google.firebase:firebase-database:19.2.0] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\1b13ddd0979a31d5382231a327fe44a7\firebase-database-19.2.0\AndroidManifest.xml:32:13-34:85
-93                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
-93-->[com.google.firebase:firebase-database:19.2.0] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\1b13ddd0979a31d5382231a327fe44a7\firebase-database-19.2.0\AndroidManifest.xml:33:17-109
-94                android:value="com.google.firebase.components.ComponentRegistrar" />
-94-->[com.google.firebase:firebase-database:19.2.0] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\1b13ddd0979a31d5382231a327fe44a7\firebase-database-19.2.0\AndroidManifest.xml:34:17-82
+59-->C:\Users\bk soft - android\AndroidStudioProjects\alamin\socialMediaNotificationTest\Lets-Chat\LetsChat\app\src\main\AndroidManifest.xml:44:9-46:48
+60            android:name="com.example.singhkshitiz.letschat.SettingActivity"
+60-->C:\Users\bk soft - android\AndroidStudioProjects\alamin\socialMediaNotificationTest\Lets-Chat\LetsChat\app\src\main\AndroidManifest.xml:45:13-44
+61            android:theme="@style/AppTheme2" />
+61-->C:\Users\bk soft - android\AndroidStudioProjects\alamin\socialMediaNotificationTest\Lets-Chat\LetsChat\app\src\main\AndroidManifest.xml:46:13-45
+62        <activity android:name="com.example.singhkshitiz.letschat.StatusActivity" />
+62-->C:\Users\bk soft - android\AndroidStudioProjects\alamin\socialMediaNotificationTest\Lets-Chat\LetsChat\app\src\main\AndroidManifest.xml:47:9-52
+62-->C:\Users\bk soft - android\AndroidStudioProjects\alamin\socialMediaNotificationTest\Lets-Chat\LetsChat\app\src\main\AndroidManifest.xml:47:19-49
+63        <activity android:name="com.theartofdev.edmodo.cropper.CropImageActivity" />
+63-->C:\Users\bk soft - android\AndroidStudioProjects\alamin\socialMediaNotificationTest\Lets-Chat\LetsChat\app\src\main\AndroidManifest.xml:48:9-85
+63-->C:\Users\bk soft - android\AndroidStudioProjects\alamin\socialMediaNotificationTest\Lets-Chat\LetsChat\app\src\main\AndroidManifest.xml:48:19-82
+64        <activity android:name="com.example.singhkshitiz.letschat.UserActivity" />
+64-->C:\Users\bk soft - android\AndroidStudioProjects\alamin\socialMediaNotificationTest\Lets-Chat\LetsChat\app\src\main\AndroidManifest.xml:49:9-50
+64-->C:\Users\bk soft - android\AndroidStudioProjects\alamin\socialMediaNotificationTest\Lets-Chat\LetsChat\app\src\main\AndroidManifest.xml:49:19-47
+65        <activity
+65-->C:\Users\bk soft - android\AndroidStudioProjects\alamin\socialMediaNotificationTest\Lets-Chat\LetsChat\app\src\main\AndroidManifest.xml:50:9-58:20
+66            android:name="com.example.singhkshitiz.letschat.ProfileActivity"
+66-->C:\Users\bk soft - android\AndroidStudioProjects\alamin\socialMediaNotificationTest\Lets-Chat\LetsChat\app\src\main\AndroidManifest.xml:51:13-44
+67            android:theme="@style/AppTheme2" >
+67-->C:\Users\bk soft - android\AndroidStudioProjects\alamin\socialMediaNotificationTest\Lets-Chat\LetsChat\app\src\main\AndroidManifest.xml:52:13-45
+68            <intent-filter>
+68-->C:\Users\bk soft - android\AndroidStudioProjects\alamin\socialMediaNotificationTest\Lets-Chat\LetsChat\app\src\main\AndroidManifest.xml:53:13-57:29
+69                <action android:name="com.example.singhkshitiz.letschat_TARGET_NOTIFICATION" />
+69-->C:\Users\bk soft - android\AndroidStudioProjects\alamin\socialMediaNotificationTest\Lets-Chat\LetsChat\app\src\main\AndroidManifest.xml:54:17-96
+69-->C:\Users\bk soft - android\AndroidStudioProjects\alamin\socialMediaNotificationTest\Lets-Chat\LetsChat\app\src\main\AndroidManifest.xml:54:25-93
+70
+71                <category android:name="android.intent.category.DEFAULT" />
+71-->C:\Users\bk soft - android\AndroidStudioProjects\alamin\socialMediaNotificationTest\Lets-Chat\LetsChat\app\src\main\AndroidManifest.xml:56:17-76
+71-->C:\Users\bk soft - android\AndroidStudioProjects\alamin\socialMediaNotificationTest\Lets-Chat\LetsChat\app\src\main\AndroidManifest.xml:56:27-73
+72            </intent-filter>
+73        </activity>
+74        <activity
+74-->C:\Users\bk soft - android\AndroidStudioProjects\alamin\socialMediaNotificationTest\Lets-Chat\LetsChat\app\src\main\AndroidManifest.xml:59:9-62:52
+75            android:name="com.example.singhkshitiz.letschat.ChatActivity"
+75-->C:\Users\bk soft - android\AndroidStudioProjects\alamin\socialMediaNotificationTest\Lets-Chat\LetsChat\app\src\main\AndroidManifest.xml:60:13-41
+76            android:parentActivityName="com.example.singhkshitiz.letschat.MainActivity"
+76-->C:\Users\bk soft - android\AndroidStudioProjects\alamin\socialMediaNotificationTest\Lets-Chat\LetsChat\app\src\main\AndroidManifest.xml:61:13-55
+77            android:screenOrientation="portrait" />
+77-->C:\Users\bk soft - android\AndroidStudioProjects\alamin\socialMediaNotificationTest\Lets-Chat\LetsChat\app\src\main\AndroidManifest.xml:62:13-49
+78
+79        <meta-data
+79-->[com.firebaseui:firebase-ui-database:1.0.1] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\e12d787156ce7b8dee899a515d6feee7\jetified-firebase-ui-database-1.0.1\AndroidManifest.xml:14:9-16:69
+80            android:name="com.google.android.gms.version"
+80-->[com.firebaseui:firebase-ui-database:1.0.1] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\e12d787156ce7b8dee899a515d6feee7\jetified-firebase-ui-database-1.0.1\AndroidManifest.xml:15:13-58
+81            android:value="@integer/google_play_services_version" />
+81-->[com.firebaseui:firebase-ui-database:1.0.1] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\e12d787156ce7b8dee899a515d6feee7\jetified-firebase-ui-database-1.0.1\AndroidManifest.xml:16:13-66
+82
+83        <activity
+83-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\3df77046680b3de77fb499963901fa77\firebase-auth-19.2.0\AndroidManifest.xml:24:9-31:50
+84            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+84-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\3df77046680b3de77fb499963901fa77\firebase-auth-19.2.0\AndroidManifest.xml:25:13-85
+85            android:excludeFromRecents="true"
+85-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\3df77046680b3de77fb499963901fa77\firebase-auth-19.2.0\AndroidManifest.xml:26:13-46
+86            android:exported="true"
+86-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\3df77046680b3de77fb499963901fa77\firebase-auth-19.2.0\AndroidManifest.xml:27:13-36
+87            android:launchMode="singleTask"
+87-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\3df77046680b3de77fb499963901fa77\firebase-auth-19.2.0\AndroidManifest.xml:28:13-44
+88            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+88-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\3df77046680b3de77fb499963901fa77\firebase-auth-19.2.0\AndroidManifest.xml:29:13-102
+89            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+89-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\3df77046680b3de77fb499963901fa77\firebase-auth-19.2.0\AndroidManifest.xml:30:13-72
+90
+91        <service
+91-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\3df77046680b3de77fb499963901fa77\firebase-auth-19.2.0\AndroidManifest.xml:33:9-39:19
+92            android:name="com.google.firebase.components.ComponentDiscoveryService"
+92-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\3df77046680b3de77fb499963901fa77\firebase-auth-19.2.0\AndroidManifest.xml:34:13-84
+93            android:directBootAware="true"
+93-->[com.google.firebase:firebase-common:19.3.0] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\817f306bf48b7568447930e91f184225\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
+94            android:exported="false" >
+94-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\3df77046680b3de77fb499963901fa77\firebase-auth-19.2.0\AndroidManifest.xml:35:13-37
 95            <meta-data
-95-->[com.google.firebase:firebase-storage:19.1.0] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\638a888dc69abcf1f17dc65c27bf54c8\firebase-storage-19.1.0\AndroidManifest.xml:33:13-35:85
-96                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
-96-->[com.google.firebase:firebase-storage:19.1.0] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\638a888dc69abcf1f17dc65c27bf54c8\firebase-storage-19.1.0\AndroidManifest.xml:34:17-107
+95-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\3df77046680b3de77fb499963901fa77\firebase-auth-19.2.0\AndroidManifest.xml:36:13-38:85
+96                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+96-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\3df77046680b3de77fb499963901fa77\firebase-auth-19.2.0\AndroidManifest.xml:37:17-109
 97                android:value="com.google.firebase.components.ComponentRegistrar" />
-97-->[com.google.firebase:firebase-storage:19.1.0] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\638a888dc69abcf1f17dc65c27bf54c8\firebase-storage-19.1.0\AndroidManifest.xml:35:17-82
+97-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\3df77046680b3de77fb499963901fa77\firebase-auth-19.2.0\AndroidManifest.xml:38:17-82
 98            <meta-data
-98-->[com.google.firebase:firebase-messaging:20.1.0] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\644b5bfe4ef0568649fd252d2dd383ae\jetified-firebase-messaging-20.1.0\AndroidManifest.xml:38:13-40:85
-99                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
-99-->[com.google.firebase:firebase-messaging:20.1.0] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\644b5bfe4ef0568649fd252d2dd383ae\jetified-firebase-messaging-20.1.0\AndroidManifest.xml:39:17-119
+98-->[com.google.firebase:firebase-database:19.2.0] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\1c1e7bb518f8042f6abc0abe70ecf6f5\firebase-database-19.2.0\AndroidManifest.xml:32:13-34:85
+99                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+99-->[com.google.firebase:firebase-database:19.2.0] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\1c1e7bb518f8042f6abc0abe70ecf6f5\firebase-database-19.2.0\AndroidManifest.xml:33:17-109
 100                android:value="com.google.firebase.components.ComponentRegistrar" />
-100-->[com.google.firebase:firebase-messaging:20.1.0] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\644b5bfe4ef0568649fd252d2dd383ae\jetified-firebase-messaging-20.1.0\AndroidManifest.xml:40:17-82
+100-->[com.google.firebase:firebase-database:19.2.0] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\1c1e7bb518f8042f6abc0abe70ecf6f5\firebase-database-19.2.0\AndroidManifest.xml:34:17-82
 101            <meta-data
-101-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\946a39d7756c6b05aa38a853bdffc128\firebase-iid-20.0.2\AndroidManifest.xml:32:13-34:85
-102                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
-102-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\946a39d7756c6b05aa38a853bdffc128\firebase-iid-20.0.2\AndroidManifest.xml:33:17-96
+101-->[com.google.firebase:firebase-storage:19.1.0] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\d3f83bfd7009812c747aba1eb339f5c0\firebase-storage-19.1.0\AndroidManifest.xml:33:13-35:85
+102                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+102-->[com.google.firebase:firebase-storage:19.1.0] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\d3f83bfd7009812c747aba1eb339f5c0\firebase-storage-19.1.0\AndroidManifest.xml:34:17-107
 103                android:value="com.google.firebase.components.ComponentRegistrar" />
-103-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\946a39d7756c6b05aa38a853bdffc128\firebase-iid-20.0.2\AndroidManifest.xml:34:17-82
+103-->[com.google.firebase:firebase-storage:19.1.0] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\d3f83bfd7009812c747aba1eb339f5c0\firebase-storage-19.1.0\AndroidManifest.xml:35:17-82
 104            <meta-data
-104-->[com.google.firebase:firebase-datatransport:17.0.3] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\e0da70c9258f6893a2373fb18ae7e095\firebase-datatransport-17.0.3\AndroidManifest.xml:28:13-30:85
-105                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
-105-->[com.google.firebase:firebase-datatransport:17.0.3] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\e0da70c9258f6893a2373fb18ae7e095\firebase-datatransport-17.0.3\AndroidManifest.xml:29:17-115
+104-->[com.google.firebase:firebase-messaging:20.1.0] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\f8cc278f36fab2c6eb73fdc7d19ba4c2\jetified-firebase-messaging-20.1.0\AndroidManifest.xml:38:13-40:85
+105                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+105-->[com.google.firebase:firebase-messaging:20.1.0] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\f8cc278f36fab2c6eb73fdc7d19ba4c2\jetified-firebase-messaging-20.1.0\AndroidManifest.xml:39:17-119
 106                android:value="com.google.firebase.components.ComponentRegistrar" />
-106-->[com.google.firebase:firebase-datatransport:17.0.3] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\e0da70c9258f6893a2373fb18ae7e095\firebase-datatransport-17.0.3\AndroidManifest.xml:30:17-82
-107        </service>
-108        <!--
-109             FirebaseMessagingService performs security checks at runtime,
-110             but set to not exported to explicitly avoid allowing another app to call it.
-111        -->
-112        <service
-112-->[com.google.firebase:firebase-messaging:20.1.0] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\644b5bfe4ef0568649fd252d2dd383ae\jetified-firebase-messaging-20.1.0\AndroidManifest.xml:28:9-34:19
-113            android:name="com.google.firebase.messaging.FirebaseMessagingService"
-113-->[com.google.firebase:firebase-messaging:20.1.0] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\644b5bfe4ef0568649fd252d2dd383ae\jetified-firebase-messaging-20.1.0\AndroidManifest.xml:29:13-82
-114            android:exported="false" >
-114-->[com.google.firebase:firebase-messaging:20.1.0] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\644b5bfe4ef0568649fd252d2dd383ae\jetified-firebase-messaging-20.1.0\AndroidManifest.xml:30:13-37
-115            <intent-filter android:priority="-500" >
-115-->C:\Users\bk soft - android\AndroidStudioProjects\alamin\socialMediaNotificationTest\Lets-Chat\LetsChat\app\src\main\AndroidManifest.xml:18:13-20:29
-116                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-116-->C:\Users\bk soft - android\AndroidStudioProjects\alamin\socialMediaNotificationTest\Lets-Chat\LetsChat\app\src\main\AndroidManifest.xml:19:17-78
-116-->C:\Users\bk soft - android\AndroidStudioProjects\alamin\socialMediaNotificationTest\Lets-Chat\LetsChat\app\src\main\AndroidManifest.xml:19:25-75
-117            </intent-filter>
-118        </service>
-119
-120        <receiver
-120-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\946a39d7756c6b05aa38a853bdffc128\firebase-iid-20.0.2\AndroidManifest.xml:37:9-44:20
-121            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
-121-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\946a39d7756c6b05aa38a853bdffc128\firebase-iid-20.0.2\AndroidManifest.xml:38:13-78
-122            android:exported="true"
-122-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\946a39d7756c6b05aa38a853bdffc128\firebase-iid-20.0.2\AndroidManifest.xml:39:13-36
-123            android:permission="com.google.android.c2dm.permission.SEND" >
-123-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\946a39d7756c6b05aa38a853bdffc128\firebase-iid-20.0.2\AndroidManifest.xml:40:13-73
-124            <intent-filter>
-124-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\946a39d7756c6b05aa38a853bdffc128\firebase-iid-20.0.2\AndroidManifest.xml:41:13-43:29
-125                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-125-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\946a39d7756c6b05aa38a853bdffc128\firebase-iid-20.0.2\AndroidManifest.xml:42:17-81
-125-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\946a39d7756c6b05aa38a853bdffc128\firebase-iid-20.0.2\AndroidManifest.xml:42:25-78
-126            </intent-filter>
-127        </receiver>
-128
-129        <activity
-129-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\6d206c10dfcd7e4d261b33c292c090cb\play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
-130            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-130-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\6d206c10dfcd7e4d261b33c292c090cb\play-services-base-17.1.0\AndroidManifest.xml:24:13-79
-131            android:exported="false"
-131-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\6d206c10dfcd7e4d261b33c292c090cb\play-services-base-17.1.0\AndroidManifest.xml:25:13-37
-132            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-132-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\6d206c10dfcd7e4d261b33c292c090cb\play-services-base-17.1.0\AndroidManifest.xml:26:13-72
-133
-134        <provider
-134-->[com.google.firebase:firebase-common:19.3.0] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\6c412de5bdf0226a70888865ea0eaa04\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
-135            android:name="com.google.firebase.provider.FirebaseInitProvider"
-135-->[com.google.firebase:firebase-common:19.3.0] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\6c412de5bdf0226a70888865ea0eaa04\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
-136            android:authorities="com.example.singhkshitiz.letschat.firebaseinitprovider"
-136-->[com.google.firebase:firebase-common:19.3.0] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\6c412de5bdf0226a70888865ea0eaa04\jetified-firebase-common-19.3.0\AndroidManifest.xml:28:13-72
+106-->[com.google.firebase:firebase-messaging:20.1.0] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\f8cc278f36fab2c6eb73fdc7d19ba4c2\jetified-firebase-messaging-20.1.0\AndroidManifest.xml:40:17-82
+107            <meta-data
+107-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\1ccbe7db028a7e8146bdd5933e9f9f42\firebase-iid-20.0.2\AndroidManifest.xml:32:13-34:85
+108                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+108-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\1ccbe7db028a7e8146bdd5933e9f9f42\firebase-iid-20.0.2\AndroidManifest.xml:33:17-96
+109                android:value="com.google.firebase.components.ComponentRegistrar" />
+109-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\1ccbe7db028a7e8146bdd5933e9f9f42\firebase-iid-20.0.2\AndroidManifest.xml:34:17-82
+110            <meta-data
+110-->[com.google.firebase:firebase-datatransport:17.0.3] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\c6cdfe5ded86d49ed315378d163fe8eb\firebase-datatransport-17.0.3\AndroidManifest.xml:28:13-30:85
+111                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+111-->[com.google.firebase:firebase-datatransport:17.0.3] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\c6cdfe5ded86d49ed315378d163fe8eb\firebase-datatransport-17.0.3\AndroidManifest.xml:29:17-115
+112                android:value="com.google.firebase.components.ComponentRegistrar" />
+112-->[com.google.firebase:firebase-datatransport:17.0.3] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\c6cdfe5ded86d49ed315378d163fe8eb\firebase-datatransport-17.0.3\AndroidManifest.xml:30:17-82
+113        </service>
+114        <!--
+115             FirebaseMessagingService performs security checks at runtime,
+116             but set to not exported to explicitly avoid allowing another app to call it.
+117        -->
+118        <service
+118-->[com.google.firebase:firebase-messaging:20.1.0] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\f8cc278f36fab2c6eb73fdc7d19ba4c2\jetified-firebase-messaging-20.1.0\AndroidManifest.xml:28:9-34:19
+119            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+119-->[com.google.firebase:firebase-messaging:20.1.0] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\f8cc278f36fab2c6eb73fdc7d19ba4c2\jetified-firebase-messaging-20.1.0\AndroidManifest.xml:29:13-82
+120            android:exported="false" >
+120-->[com.google.firebase:firebase-messaging:20.1.0] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\f8cc278f36fab2c6eb73fdc7d19ba4c2\jetified-firebase-messaging-20.1.0\AndroidManifest.xml:30:13-37
+121            <intent-filter android:priority="-500" >
+121-->C:\Users\bk soft - android\AndroidStudioProjects\alamin\socialMediaNotificationTest\Lets-Chat\LetsChat\app\src\main\AndroidManifest.xml:24:13-26:29
+122                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+122-->C:\Users\bk soft - android\AndroidStudioProjects\alamin\socialMediaNotificationTest\Lets-Chat\LetsChat\app\src\main\AndroidManifest.xml:25:17-78
+122-->C:\Users\bk soft - android\AndroidStudioProjects\alamin\socialMediaNotificationTest\Lets-Chat\LetsChat\app\src\main\AndroidManifest.xml:25:25-75
+123            </intent-filter>
+124        </service>
+125
+126        <receiver
+126-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\1ccbe7db028a7e8146bdd5933e9f9f42\firebase-iid-20.0.2\AndroidManifest.xml:37:9-44:20
+127            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+127-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\1ccbe7db028a7e8146bdd5933e9f9f42\firebase-iid-20.0.2\AndroidManifest.xml:38:13-78
+128            android:exported="true"
+128-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\1ccbe7db028a7e8146bdd5933e9f9f42\firebase-iid-20.0.2\AndroidManifest.xml:39:13-36
+129            android:permission="com.google.android.c2dm.permission.SEND" >
+129-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\1ccbe7db028a7e8146bdd5933e9f9f42\firebase-iid-20.0.2\AndroidManifest.xml:40:13-73
+130            <intent-filter>
+130-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\1ccbe7db028a7e8146bdd5933e9f9f42\firebase-iid-20.0.2\AndroidManifest.xml:41:13-43:29
+131                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+131-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\1ccbe7db028a7e8146bdd5933e9f9f42\firebase-iid-20.0.2\AndroidManifest.xml:42:17-81
+131-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\1ccbe7db028a7e8146bdd5933e9f9f42\firebase-iid-20.0.2\AndroidManifest.xml:42:25-78
+132            </intent-filter>
+133        </receiver>
+134
+135        <activity
+135-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\e04e753e7042079e41c38c1c8ea7bdd1\play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+136            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+136-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\e04e753e7042079e41c38c1c8ea7bdd1\play-services-base-17.1.0\AndroidManifest.xml:24:13-79
 137            android:exported="false"
-137-->[com.google.firebase:firebase-common:19.3.0] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\6c412de5bdf0226a70888865ea0eaa04\jetified-firebase-common-19.3.0\AndroidManifest.xml:29:13-37
-138            android:initOrder="100" />
-138-->[com.google.firebase:firebase-common:19.3.0] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\6c412de5bdf0226a70888865ea0eaa04\jetified-firebase-common-19.3.0\AndroidManifest.xml:30:13-36
+137-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\e04e753e7042079e41c38c1c8ea7bdd1\play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+138            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+138-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\e04e753e7042079e41c38c1c8ea7bdd1\play-services-base-17.1.0\AndroidManifest.xml:26:13-72
 139
-140        <service
-140-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\77181b27b36cb37ae3fc9cbfe9ccb0de\transport-backend-cct-2.2.0\AndroidManifest.xml:29:9-35:19
-141            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
-141-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\77181b27b36cb37ae3fc9cbfe9ccb0de\transport-backend-cct-2.2.0\AndroidManifest.xml:30:13-103
-142            android:exported="false" >
-142-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\77181b27b36cb37ae3fc9cbfe9ccb0de\transport-backend-cct-2.2.0\AndroidManifest.xml:31:13-37
-143            <meta-data
-143-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\77181b27b36cb37ae3fc9cbfe9ccb0de\transport-backend-cct-2.2.0\AndroidManifest.xml:32:13-34:39
-144                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
-144-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\77181b27b36cb37ae3fc9cbfe9ccb0de\transport-backend-cct-2.2.0\AndroidManifest.xml:33:17-94
-145                android:value="cct" />
-145-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\77181b27b36cb37ae3fc9cbfe9ccb0de\transport-backend-cct-2.2.0\AndroidManifest.xml:34:17-36
-146        </service>
-147        <service
-147-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\de57d140c5b40ac4922d63a6d65b36af\transport-runtime-2.2.0\AndroidManifest.xml:26:9-30:19
-148            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
-148-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\de57d140c5b40ac4922d63a6d65b36af\transport-runtime-2.2.0\AndroidManifest.xml:27:13-117
-149            android:exported="false"
-149-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\de57d140c5b40ac4922d63a6d65b36af\transport-runtime-2.2.0\AndroidManifest.xml:28:13-37
-150            android:permission="android.permission.BIND_JOB_SERVICE" >
-150-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\de57d140c5b40ac4922d63a6d65b36af\transport-runtime-2.2.0\AndroidManifest.xml:29:13-69
-151        </service>
-152
-153        <receiver
-153-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\de57d140c5b40ac4922d63a6d65b36af\transport-runtime-2.2.0\AndroidManifest.xml:32:9-34:40
-154            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
-154-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\de57d140c5b40ac4922d63a6d65b36af\transport-runtime-2.2.0\AndroidManifest.xml:33:13-132
-155            android:exported="false" />
-155-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\de57d140c5b40ac4922d63a6d65b36af\transport-runtime-2.2.0\AndroidManifest.xml:34:13-37
-156    </application>
-157
-158</manifest>
+140        <provider
+140-->[com.google.firebase:firebase-common:19.3.0] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\817f306bf48b7568447930e91f184225\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
+141            android:name="com.google.firebase.provider.FirebaseInitProvider"
+141-->[com.google.firebase:firebase-common:19.3.0] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\817f306bf48b7568447930e91f184225\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
+142            android:authorities="com.example.singhkshitiz.letschat.firebaseinitprovider"
+142-->[com.google.firebase:firebase-common:19.3.0] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\817f306bf48b7568447930e91f184225\jetified-firebase-common-19.3.0\AndroidManifest.xml:28:13-72
+143            android:exported="false"
+143-->[com.google.firebase:firebase-common:19.3.0] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\817f306bf48b7568447930e91f184225\jetified-firebase-common-19.3.0\AndroidManifest.xml:29:13-37
+144            android:initOrder="100" />
+144-->[com.google.firebase:firebase-common:19.3.0] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\817f306bf48b7568447930e91f184225\jetified-firebase-common-19.3.0\AndroidManifest.xml:30:13-36
+145
+146        <service
+146-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\cd5d85354d3d0cf51b051b8f5667a965\transport-backend-cct-2.2.0\AndroidManifest.xml:29:9-35:19
+147            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+147-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\cd5d85354d3d0cf51b051b8f5667a965\transport-backend-cct-2.2.0\AndroidManifest.xml:30:13-103
+148            android:exported="false" >
+148-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\cd5d85354d3d0cf51b051b8f5667a965\transport-backend-cct-2.2.0\AndroidManifest.xml:31:13-37
+149            <meta-data
+149-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\cd5d85354d3d0cf51b051b8f5667a965\transport-backend-cct-2.2.0\AndroidManifest.xml:32:13-34:39
+150                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+150-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\cd5d85354d3d0cf51b051b8f5667a965\transport-backend-cct-2.2.0\AndroidManifest.xml:33:17-94
+151                android:value="cct" />
+151-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\cd5d85354d3d0cf51b051b8f5667a965\transport-backend-cct-2.2.0\AndroidManifest.xml:34:17-36
+152        </service>
+153        <service
+153-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\6b11cd46dfa048925bf7a7804833e3b4\transport-runtime-2.2.0\AndroidManifest.xml:26:9-30:19
+154            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+154-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\6b11cd46dfa048925bf7a7804833e3b4\transport-runtime-2.2.0\AndroidManifest.xml:27:13-117
+155            android:exported="false"
+155-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\6b11cd46dfa048925bf7a7804833e3b4\transport-runtime-2.2.0\AndroidManifest.xml:28:13-37
+156            android:permission="android.permission.BIND_JOB_SERVICE" >
+156-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\6b11cd46dfa048925bf7a7804833e3b4\transport-runtime-2.2.0\AndroidManifest.xml:29:13-69
+157        </service>
+158
+159        <receiver
+159-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\6b11cd46dfa048925bf7a7804833e3b4\transport-runtime-2.2.0\AndroidManifest.xml:32:9-34:40
+160            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+160-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\6b11cd46dfa048925bf7a7804833e3b4\transport-runtime-2.2.0\AndroidManifest.xml:33:13-132
+161            android:exported="false" />
+161-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\6b11cd46dfa048925bf7a7804833e3b4\transport-runtime-2.2.0\AndroidManifest.xml:34:13-37
+162    </application>
+163
+164</manifest>

@@ -253,8 +253,6 @@ public class SettingActivity extends AppCompatActivity {
                                     }
                                 }
                             });
-
-
                         }
                         else{
                             mProgressDialog.dismiss();
@@ -279,7 +277,5 @@ public class SettingActivity extends AppCompatActivity {
     protected void onStop() {
         super.onStop();
         //mDatabaseReference.child("online").setValue(ServerValue.TIMESTAMP);
-
     }
-
 }

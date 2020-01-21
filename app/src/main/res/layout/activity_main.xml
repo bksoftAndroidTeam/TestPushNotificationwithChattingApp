@@ -4,4 +4,11 @@
     android:layout_height="match_parent">
 
     <include layout="@layout/import_activity_main"></include>
+
+    <Button
+        android:id="@+id/btn_goto_kotlin"
+        android:layout_alignParentBottom="true"
+        android:text="Go to kotline page"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
 </RelativeLayout>

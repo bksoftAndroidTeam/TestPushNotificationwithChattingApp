@@ -11,6 +11,8 @@ import android.os.Bundle;
 import androidx.appcompat.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Button;
 import android.widget.Toast;
 
 import com.example.singhkshitiz.letschat.Fragments.MyFragmentPagerAdapter;
@@ -29,6 +31,8 @@ public class MainActivity extends AppCompatActivity {
     TabLayout mtabLayout;
     DatabaseReference mDatabaseReference;
 
+    Button btn_goto_kotlin;
+
     //Toolbar mtoolbar;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -45,6 +49,15 @@ public class MainActivity extends AppCompatActivity {
         //---SETTING TAB LAYOUT WITH VIEW PAGER
         mtabLayout=(TabLayout)findViewById(R.id.tabLayout);
         mtabLayout.setupWithViewPager(mviewPager);
+        btn_goto_kotlin = findViewById(R.id.btn_goto_kotlin);
+
+        btn_goto_kotlin.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,TestWtihKotlineActivity.class);
+                startActivity(intent);
+            }
+        });
 
         mDatabaseReference = FirebaseDatabase.getInstance().getReference().child("users");
     }
