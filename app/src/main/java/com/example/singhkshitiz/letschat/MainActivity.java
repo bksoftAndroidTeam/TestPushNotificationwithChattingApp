@@ -3,6 +3,8 @@ package com.example.singhkshitiz.letschat;
 import android.content.DialogInterface;
 import android.content.Intent;
 import androidx.annotation.NonNull;
+
+import com.example.singhkshitiz.letschat.Notification.AllUserListActivity;
 import com.google.android.material.tabs.TabLayout;
 import androidx.viewpager.widget.ViewPager;
 import androidx.appcompat.app.AlertDialog;
@@ -54,7 +56,7 @@ public class MainActivity extends AppCompatActivity {
         btn_goto_kotlin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,TestWtihKotlineActivity.class);
+                Intent intent = new Intent(MainActivity.this, AllUserListActivity.class);
                 startActivity(intent);
             }
         });
