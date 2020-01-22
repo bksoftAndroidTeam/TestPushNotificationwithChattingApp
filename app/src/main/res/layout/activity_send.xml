@@ -3,13 +3,32 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:layout_margin="20dp"
     android:layout_height="match_parent"
     tools:context=".Notification.SendActivity">
 
     <TextView
-        android:id="@+id/tv_id"
+        android:layout_marginTop="50dp"
+        android:id="@+id/user_name"
         android:textAlignment="center"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:text="Loding Name..." />
 
+    <EditText
+        android:id="@+id/notification_msg"
+        android:layout_below="@+id/user_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minLines="4"
+        android:minHeight="60dp"
+        android:hint="Enter Notification Msg"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/send_btn"
+        android:layout_below="@+id/notification_msg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send" />
 </RelativeLayout>

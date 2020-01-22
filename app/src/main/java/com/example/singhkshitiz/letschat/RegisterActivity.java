@@ -4,6 +4,7 @@ import android.app.ProgressDialog;
 import android.content.Intent;
 import androidx.annotation.NonNull;
 
+import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.material.textfield.TextInputLayout;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
@@ -16,6 +17,7 @@ import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.auth.GetTokenResult;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.iid.FirebaseInstanceId;
@@ -92,43 +94,52 @@ public class RegisterActivity extends AppCompatActivity {
                 //------IF USER IS SUCCESSFULLY REGISTERED-----
                 if(task.isSuccessful()){
 
-                    FirebaseUser current_user = FirebaseAuth.getInstance().getCurrentUser();
-                    final String uid=current_user.getUid();
-                    String token_id = FirebaseInstanceId.getInstance().getToken();
-                    Map userMap=new HashMap();
-                    userMap.put("device_token",token_id);
-                    userMap.put("name",displayname);
-                    userMap.put("status","Hello Kshitiz");
-                    userMap.put("image","default");
-                    userMap.put("thumb_image","default");
-                    userMap.put("online","true");
-
-                    mDatabase.child(uid).setValue(userMap).addOnCompleteListener(new OnCompleteListener<Void>() {
+                    mauth.getCurrentUser().getIdToken(true).addOnSuccessListener(new OnSuccessListener<GetTokenResult>() {
                         @Override
-                        public void onComplete(@NonNull Task<Void> task1) {
-                            if(task1.isSuccessful()){
+                        public void onSuccess(GetTokenResult getTokenResult) {
+                            FirebaseUser current_user = FirebaseAuth.getInstance().getCurrentUser();
+                            final String uid=current_user.getUid();
+                            String token_id = FirebaseInstanceId.getInstance().getToken();
 
-                                progressDialog.dismiss();
-                                Toast.makeText(getApplicationContext(), "New User is created", Toast.LENGTH_SHORT).show();
-                                Intent intent=new Intent(RegisterActivity.this,MainActivity.class);
+                            String user_token = getTokenResult.getToken();
 
-                                //----REMOVING THE LOGIN ACTIVITY FROM THE QUEUE----
-                                intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
-                                startActivity(intent);
-                                finish();
+                            Map userMap=new HashMap();
+                            userMap.put("user_uid",uid);
+                            userMap.put("user_token",user_token);
+                            userMap.put("device_token",token_id);
+                            userMap.put("name",displayname);
+                            userMap.put("status","Hello Kshitiz");
+                            userMap.put("image","default");
+                            userMap.put("thumb_image","default");
+                            userMap.put("online","true");
+
+                            mDatabase.child(uid).setValue(userMap).addOnCompleteListener(new OnCompleteListener<Void>() {
+                                @Override
+                                public void onComplete(@NonNull Task<Void> task1) {
+                                    if(task1.isSuccessful()){
+
+                                        progressDialog.dismiss();
+                                        Toast.makeText(getApplicationContext(), "New User is created", Toast.LENGTH_SHORT).show();
+                                        Intent intent=new Intent(RegisterActivity.this,MainActivity.class);
+
+                                        //----REMOVING THE LOGIN ACTIVITY FROM THE QUEUE----
+                                        intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+                                        startActivity(intent);
+                                        finish();
 
 
 
-                            }
-                            else{
+                                    }
+                                    else{
 
-                                Toast.makeText(RegisterActivity.this, "YOUR NAME IS NOT REGISTERED... MAKE NEW ACCOUNT-- ", Toast.LENGTH_SHORT).show();
+                                        Toast.makeText(RegisterActivity.this, "YOUR NAME IS NOT REGISTERED... MAKE NEW ACCOUNT-- ", Toast.LENGTH_SHORT).show();
 
-                            }
+                                    }
 
+                                }
+                            });
                         }
                     });
-
 
                 }
                 //---ERROR IN ACCOUNT CREATING OF NEW USER---

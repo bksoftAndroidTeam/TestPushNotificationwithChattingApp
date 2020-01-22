@@ -7,6 +7,7 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
+import android.widget.Toast;
 
 import com.example.singhkshitiz.letschat.R;
 import com.example.singhkshitiz.letschat.Users;
@@ -22,7 +23,7 @@ import java.util.List;
 public class AllUserListActivity extends AppCompatActivity {
 
     //https://www.youtube.com/watch?v=pm6W9k9CP64&list=PLGCjwl1RrtcRHjHyZAxm_Mq4qvtnundo0&index=3
-    //part 3 ar 19min
+    //part 3 ar নবচ19min
     private AllUserAdapter adapter;
     private DatabaseReference mUsersDatabaseReference;
     private List<Users> users_list = new ArrayList<>();
@@ -40,9 +41,10 @@ public class AllUserListActivity extends AppCompatActivity {
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                 users_list.clear();
                 for (DataSnapshot dataSnapshot1 : dataSnapshot.getChildren()){
-                    if (dataSnapshot1 != null){
-                        Users users = dataSnapshot1.getValue(Users.class);
+                    Users users = dataSnapshot1.getValue(Users.class);
+                    if (users != null){
                         users_list.add(users);
+                        Toast.makeText(AllUserListActivity.this, "Test Toast", Toast.LENGTH_SHORT).show();
                     }
                 }
 
@@ -53,9 +55,7 @@ public class AllUserListActivity extends AppCompatActivity {
                     all_user_recycler_view.setItemAnimator(new DefaultItemAnimator());
                     all_user_recycler_view.setAdapter(adapter);
                 }
-
             }
-
             @Override
             public void onCancelled(@NonNull DatabaseError databaseError) {
 

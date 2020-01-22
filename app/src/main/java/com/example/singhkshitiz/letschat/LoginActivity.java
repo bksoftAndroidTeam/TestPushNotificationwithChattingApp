@@ -4,6 +4,8 @@ import android.app.ProgressDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
 import androidx.annotation.NonNull;
+
+import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.material.textfield.TextInputLayout;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
@@ -17,6 +19,7 @@ import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.GetTokenResult;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
@@ -111,37 +114,48 @@ public class LoginActivity extends AppCompatActivity {
 
                         if(task.isSuccessful()){
 
-                            //---ADDING DEVICE TOKEN ID AND SET ONLINE TO BE TRUE---
-                            //---DEVICE TOKEN IS USED FOR SENDING NOTIFICATION----
-                            String user_id=mauth.getCurrentUser().getUid();
-                            String token_id= FirebaseInstanceId.getInstance().getToken();
-                            Map addValue = new HashMap();
-                            addValue.put("device_token",token_id);
-                            addValue.put("online","true");
 
-                            //---IF UPDATE IS SUCCESSFULL , THEN OPEN MAIN ACTIVITY---
-                            mDatabaseReference.child(user_id).updateChildren(addValue, new DatabaseReference.CompletionListener(){
 
+                            mauth.getCurrentUser().getIdToken(true).addOnSuccessListener(new OnSuccessListener<GetTokenResult>() {
                                 @Override
-                                public void onComplete(DatabaseError databaseError, DatabaseReference databaseReference) {
+                                public void onSuccess(GetTokenResult getTokenResult) {
 
-                                    if(databaseError==null){
+                                    //---ADDING DEVICE TOKEN ID AND SET ONLINE TO BE TRUE---
+                                    //---DEVICE TOKEN IS USED FOR SENDING NOTIFICATION----
+                                    String user_id=mauth.getCurrentUser().getUid();
+                                    String token_id= FirebaseInstanceId.getInstance().getToken();
 
-                                        //---OPENING MAIN ACTIVITY---
-                                        Log.e("Login : ","Logged in Successfully" );
-                                        Toast.makeText(getApplicationContext(), "Logged in Successfully", Toast.LENGTH_SHORT).show();
-                                        Intent intent=new Intent(LoginActivity.this,MainActivity.class);
-                                        startActivity(intent);
-                                        finish();
-                                    }
-                                    else{
-                                        Toast.makeText(LoginActivity.this, databaseError.toString()  , Toast.LENGTH_SHORT).show();
-                                        Log.e("Error is : ",databaseError.toString());
+                                    Map addValue = new HashMap();
+                                    addValue.put("device_token",token_id);
+                                    addValue.put("online","true");
 
-                                    }
+
+                                    //---IF UPDATE IS SUCCESSFULL , THEN OPEN MAIN ACTIVITY---
+                                    mDatabaseReference.child(user_id).updateChildren(addValue, new DatabaseReference.CompletionListener(){
+
+                                        @Override
+                                        public void onComplete(DatabaseError databaseError, DatabaseReference databaseReference) {
+
+                                            if(databaseError==null){
+
+                                                //---OPENING MAIN ACTIVITY---
+                                                Log.e("Login : ","Logged in Successfully" );
+                                                Toast.makeText(getApplicationContext(), "Logged in Successfully", Toast.LENGTH_SHORT).show();
+                                                Intent intent=new Intent(LoginActivity.this,MainActivity.class);
+                                                startActivity(intent);
+                                                finish();
+                                            }
+                                            else{
+                                                Toast.makeText(LoginActivity.this, databaseError.toString()  , Toast.LENGTH_SHORT).show();
+                                                Log.e("Error is : ",databaseError.toString());
+
+                                            }
+                                        }
+                                    });
+
+
                                 }
                             });
-
 
 
                         }

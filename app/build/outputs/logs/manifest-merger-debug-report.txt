@@ -4,6 +4,7 @@ ADDED from C:\Users\bk soft - android\AndroidStudioProjects\alamin\socialMediaNo
 INJECTED from C:\Users\bk soft - android\AndroidStudioProjects\alamin\socialMediaNotificationTest\Lets-Chat\LetsChat\app\src\main\AndroidManifest.xml:2:1-69:12
 INJECTED from C:\Users\bk soft - android\AndroidStudioProjects\alamin\socialMediaNotificationTest\Lets-Chat\LetsChat\app\src\main\AndroidManifest.xml:2:1-69:12
 INJECTED from C:\Users\bk soft - android\AndroidStudioProjects\alamin\socialMediaNotificationTest\Lets-Chat\LetsChat\app\src\main\AndroidManifest.xml:2:1-69:12
+MERGED from [com.google.firebase:firebase-functions:16.1.3] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\41e5f5680521e8fd747d510aded998d7\jetified-firebase-functions-16.1.3\AndroidManifest.xml:2:1-20:12
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\f10e531df7845ec8a52c45532d6d9d5b\material-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.theartofdev.edmodo:android-image-cropper:2.8.0] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\b2ddd0da575400560fa2b61b11a0957b\android-image-cropper-2.8.0\AndroidManifest.xml:2:1-11:12
 MERGED from [com.firebaseui:firebase-ui-database:1.0.1] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\e12d787156ce7b8dee899a515d6feee7\jetified-firebase-ui-database-1.0.1\AndroidManifest.xml:2:1-19:12
@@ -86,6 +87,8 @@ INJECTED from C:\Users\bk soft - android\AndroidStudioProjects\alamin\socialMedi
 		ADDED from C:\Users\bk soft - android\AndroidStudioProjects\alamin\socialMediaNotificationTest\Lets-Chat\LetsChat\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
 ADDED from C:\Users\bk soft - android\AndroidStudioProjects\alamin\socialMediaNotificationTest\Lets-Chat\LetsChat\app\src\main\AndroidManifest.xml:5:5-67
+MERGED from [com.google.firebase:firebase-functions:16.1.3] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\41e5f5680521e8fd747d510aded998d7\jetified-firebase-functions-16.1.3\AndroidManifest.xml:10:5-67
+MERGED from [com.google.firebase:firebase-functions:16.1.3] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\41e5f5680521e8fd747d510aded998d7\jetified-firebase-functions-16.1.3\AndroidManifest.xml:10:5-67
 MERGED from [com.firebaseui:firebase-ui-database:1.0.1] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\e12d787156ce7b8dee899a515d6feee7\jetified-firebase-ui-database-1.0.1\AndroidManifest.xml:11:5-67
 MERGED from [com.firebaseui:firebase-ui-database:1.0.1] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\e12d787156ce7b8dee899a515d6feee7\jetified-firebase-ui-database-1.0.1\AndroidManifest.xml:11:5-67
 MERGED from [com.google.firebase:firebase-database:19.2.0] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\1c1e7bb518f8042f6abc0abe70ecf6f5\firebase-database-19.2.0\AndroidManifest.xml:26:5-67
@@ -108,6 +111,8 @@ ADDED from C:\Users\bk soft - android\AndroidStudioProjects\alamin\socialMediaNo
 		ADDED from C:\Users\bk soft - android\AndroidStudioProjects\alamin\socialMediaNotificationTest\Lets-Chat\LetsChat\app\src\main\AndroidManifest.xml:7:22-78
 application
 ADDED from C:\Users\bk soft - android\AndroidStudioProjects\alamin\socialMediaNotificationTest\Lets-Chat\LetsChat\app\src\main\AndroidManifest.xml:9:5-67:19
+MERGED from [com.google.firebase:firebase-functions:16.1.3] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\41e5f5680521e8fd747d510aded998d7\jetified-firebase-functions-16.1.3\AndroidManifest.xml:12:5-18:19
+MERGED from [com.google.firebase:firebase-functions:16.1.3] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\41e5f5680521e8fd747d510aded998d7\jetified-firebase-functions-16.1.3\AndroidManifest.xml:12:5-18:19
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\f10e531df7845ec8a52c45532d6d9d5b\material-1.0.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\f10e531df7845ec8a52c45532d6d9d5b\material-1.0.0\AndroidManifest.xml:22:5-20
 MERGED from [com.firebaseui:firebase-ui-database:1.0.1] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\e12d787156ce7b8dee899a515d6feee7\jetified-firebase-ui-database-1.0.1\AndroidManifest.xml:13:5-17:19
@@ -276,6 +281,8 @@ uses-sdk
 INJECTED from C:\Users\bk soft - android\AndroidStudioProjects\alamin\socialMediaNotificationTest\Lets-Chat\LetsChat\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\bk soft - android\AndroidStudioProjects\alamin\socialMediaNotificationTest\Lets-Chat\LetsChat\app\src\main\AndroidManifest.xml
 INJECTED from C:\Users\bk soft - android\AndroidStudioProjects\alamin\socialMediaNotificationTest\Lets-Chat\LetsChat\app\src\main\AndroidManifest.xml
+MERGED from [com.google.firebase:firebase-functions:16.1.3] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\41e5f5680521e8fd747d510aded998d7\jetified-firebase-functions-16.1.3\AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-functions:16.1.3] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\41e5f5680521e8fd747d510aded998d7\jetified-firebase-functions-16.1.3\AndroidManifest.xml:6:5-8:41
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\f10e531df7845ec8a52c45532d6d9d5b\material-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\f10e531df7845ec8a52c45532d6d9d5b\material-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.theartofdev.edmodo:android-image-cropper:2.8.0] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\b2ddd0da575400560fa2b61b11a0957b\android-image-cropper-2.8.0\AndroidManifest.xml:7:5-9:41
@@ -412,6 +419,36 @@ INJECTED from C:\Users\bk soft - android\AndroidStudioProjects\alamin\socialMedi
 		INJECTED from C:\Users\bk soft - android\AndroidStudioProjects\alamin\socialMediaNotificationTest\Lets-Chat\LetsChat\app\src\main\AndroidManifest.xml
 		ADDED from C:\Users\bk soft - android\AndroidStudioProjects\alamin\socialMediaNotificationTest\Lets-Chat\LetsChat\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\bk soft - android\AndroidStudioProjects\alamin\socialMediaNotificationTest\Lets-Chat\LetsChat\app\src\main\AndroidManifest.xml
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-functions:16.1.3] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\41e5f5680521e8fd747d510aded998d7\jetified-firebase-functions-16.1.3\AndroidManifest.xml:13:9-17:19
+MERGED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\3df77046680b3de77fb499963901fa77\firebase-auth-19.2.0\AndroidManifest.xml:33:9-39:19
+MERGED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\3df77046680b3de77fb499963901fa77\firebase-auth-19.2.0\AndroidManifest.xml:33:9-39:19
+MERGED from [com.google.firebase:firebase-database:19.2.0] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\1c1e7bb518f8042f6abc0abe70ecf6f5\firebase-database-19.2.0\AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-database:19.2.0] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\1c1e7bb518f8042f6abc0abe70ecf6f5\firebase-database-19.2.0\AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-storage:19.1.0] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\d3f83bfd7009812c747aba1eb339f5c0\firebase-storage-19.1.0\AndroidManifest.xml:30:9-36:19
+MERGED from [com.google.firebase:firebase-storage:19.1.0] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\d3f83bfd7009812c747aba1eb339f5c0\firebase-storage-19.1.0\AndroidManifest.xml:30:9-36:19
+MERGED from [com.google.firebase:firebase-messaging:20.1.0] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\f8cc278f36fab2c6eb73fdc7d19ba4c2\jetified-firebase-messaging-20.1.0\AndroidManifest.xml:35:9-41:19
+MERGED from [com.google.firebase:firebase-messaging:20.1.0] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\f8cc278f36fab2c6eb73fdc7d19ba4c2\jetified-firebase-messaging-20.1.0\AndroidManifest.xml:35:9-41:19
+MERGED from [com.google.firebase:firebase-iid:20.0.2] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\1ccbe7db028a7e8146bdd5933e9f9f42\firebase-iid-20.0.2\AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-iid:20.0.2] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\1ccbe7db028a7e8146bdd5933e9f9f42\firebase-iid-20.0.2\AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-datatransport:17.0.3] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\c6cdfe5ded86d49ed315378d163fe8eb\firebase-datatransport-17.0.3\AndroidManifest.xml:25:9-31:19
+MERGED from [com.google.firebase:firebase-datatransport:17.0.3] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\c6cdfe5ded86d49ed315378d163fe8eb\firebase-datatransport-17.0.3\AndroidManifest.xml:25:9-31:19
+MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\817f306bf48b7568447930e91f184225\jetified-firebase-common-19.3.0\AndroidManifest.xml:32:9-36:35
+MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\817f306bf48b7568447930e91f184225\jetified-firebase-common-19.3.0\AndroidManifest.xml:32:9-36:35
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\3df77046680b3de77fb499963901fa77\firebase-auth-19.2.0\AndroidManifest.xml:35:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\817f306bf48b7568447930e91f184225\jetified-firebase-common-19.3.0\AndroidManifest.xml:36:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\817f306bf48b7568447930e91f184225\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
+	android:name
+		ADDED from [com.google.firebase:firebase-functions:16.1.3] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\41e5f5680521e8fd747d510aded998d7\jetified-firebase-functions-16.1.3\AndroidManifest.xml:13:18-89
+meta-data#com.google.firebase.components:com.google.firebase.functions.FunctionsRegistrar
+ADDED from [com.google.firebase:firebase-functions:16.1.3] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\41e5f5680521e8fd747d510aded998d7\jetified-firebase-functions-16.1.3\AndroidManifest.xml:14:13-16:85
+	android:value
+		ADDED from [com.google.firebase:firebase-functions:16.1.3] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\41e5f5680521e8fd747d510aded998d7\jetified-firebase-functions-16.1.3\AndroidManifest.xml:16:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-functions:16.1.3] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\41e5f5680521e8fd747d510aded998d7\jetified-firebase-functions-16.1.3\AndroidManifest.xml:15:17-111
 meta-data#com.google.android.gms.version
 ADDED from [com.firebaseui:firebase-ui-database:1.0.1] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\e12d787156ce7b8dee899a515d6feee7\jetified-firebase-ui-database-1.0.1\AndroidManifest.xml:14:9-16:69
 MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\de683ffd44dbaaeeadb3ce8619ee78a9\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
@@ -436,28 +473,6 @@ ADDED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\bk soft - android
 		ADDED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\3df77046680b3de77fb499963901fa77\firebase-auth-19.2.0\AndroidManifest.xml:31:13-47
 	android:name
 		ADDED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\3df77046680b3de77fb499963901fa77\firebase-auth-19.2.0\AndroidManifest.xml:25:13-85
-service#com.google.firebase.components.ComponentDiscoveryService
-ADDED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\3df77046680b3de77fb499963901fa77\firebase-auth-19.2.0\AndroidManifest.xml:33:9-39:19
-MERGED from [com.google.firebase:firebase-database:19.2.0] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\1c1e7bb518f8042f6abc0abe70ecf6f5\firebase-database-19.2.0\AndroidManifest.xml:29:9-35:19
-MERGED from [com.google.firebase:firebase-database:19.2.0] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\1c1e7bb518f8042f6abc0abe70ecf6f5\firebase-database-19.2.0\AndroidManifest.xml:29:9-35:19
-MERGED from [com.google.firebase:firebase-storage:19.1.0] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\d3f83bfd7009812c747aba1eb339f5c0\firebase-storage-19.1.0\AndroidManifest.xml:30:9-36:19
-MERGED from [com.google.firebase:firebase-storage:19.1.0] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\d3f83bfd7009812c747aba1eb339f5c0\firebase-storage-19.1.0\AndroidManifest.xml:30:9-36:19
-MERGED from [com.google.firebase:firebase-messaging:20.1.0] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\f8cc278f36fab2c6eb73fdc7d19ba4c2\jetified-firebase-messaging-20.1.0\AndroidManifest.xml:35:9-41:19
-MERGED from [com.google.firebase:firebase-messaging:20.1.0] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\f8cc278f36fab2c6eb73fdc7d19ba4c2\jetified-firebase-messaging-20.1.0\AndroidManifest.xml:35:9-41:19
-MERGED from [com.google.firebase:firebase-iid:20.0.2] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\1ccbe7db028a7e8146bdd5933e9f9f42\firebase-iid-20.0.2\AndroidManifest.xml:29:9-35:19
-MERGED from [com.google.firebase:firebase-iid:20.0.2] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\1ccbe7db028a7e8146bdd5933e9f9f42\firebase-iid-20.0.2\AndroidManifest.xml:29:9-35:19
-MERGED from [com.google.firebase:firebase-datatransport:17.0.3] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\c6cdfe5ded86d49ed315378d163fe8eb\firebase-datatransport-17.0.3\AndroidManifest.xml:25:9-31:19
-MERGED from [com.google.firebase:firebase-datatransport:17.0.3] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\c6cdfe5ded86d49ed315378d163fe8eb\firebase-datatransport-17.0.3\AndroidManifest.xml:25:9-31:19
-MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\817f306bf48b7568447930e91f184225\jetified-firebase-common-19.3.0\AndroidManifest.xml:32:9-36:35
-MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\817f306bf48b7568447930e91f184225\jetified-firebase-common-19.3.0\AndroidManifest.xml:32:9-36:35
-	android:exported
-		ADDED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\3df77046680b3de77fb499963901fa77\firebase-auth-19.2.0\AndroidManifest.xml:35:13-37
-	tools:targetApi
-		ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\817f306bf48b7568447930e91f184225\jetified-firebase-common-19.3.0\AndroidManifest.xml:36:13-32
-	android:directBootAware
-		ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\817f306bf48b7568447930e91f184225\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
-	android:name
-		ADDED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\3df77046680b3de77fb499963901fa77\firebase-auth-19.2.0\AndroidManifest.xml:34:13-84
 meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
 ADDED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\bk soft - android\.gradle\caches\transforms-2\files-2.1\3df77046680b3de77fb499963901fa77\firebase-auth-19.2.0\AndroidManifest.xml:36:13-38:85
 	android:value
